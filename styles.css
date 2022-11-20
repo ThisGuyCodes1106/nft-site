@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  color: #2b283a;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Typogrophy */
+h1, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 500;
+  color: d0aaff;
+}
+
+p {
+  line-height: 23px;
+}
+
+/* Layout */
+header, .section-two {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+header, section, footer {
+  padding: 45px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sneaker-img {
+  width: 100%;
+}
+
+.feature-img {
+  width: 390px;
+  border-radius: 5px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Links */
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.btn:hover, .btn:active {
+  color: #2b283a;
+  background-color: #f3e885;
+}
+
+.buy-btn {
+  color: whitesmoke;
+  background-color: #5f29a3;
+}
+
+.info-btn, .about-btn {
+  color: #5f29a3;
+}
+
+.info-btn {
+  background-color: #e3cdf8;
+}
+
+.about-btn {
+  background-color: whitesmoke;
+}
+
+/* Footer */
+.footer-content {
+  font-size: 18px;
+  color: #5f29a3;
+  text-align: center;
+}
